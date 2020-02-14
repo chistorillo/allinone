@@ -1,0 +1,40 @@
+/* 
+Dev comments: ====
+This css should compose of variables. 
+Please use variables for dynamic use of styles. 
+====
+*/
+
+.my-name {
+    text-align: center;
+}
+
+.my-motto {
+    text-align: center;
+    padding: 5rem;
+    color: var(--text-red);
+}
+
+/* theme for text colors */
+
+:root {
+    --txt-red: red;
+    --txt-blue: blue;
+    --txt-green: green;
+    --txt-yellow: yellow;
+    --txt-orange: orange;
+    --txt-black: black;
+    --txt-white: white;
+}
+
+/* theme for background colors */
+
+:root {
+    --bg-red: red;
+    --bg-blue: blue;
+    --bg-green: green;
+    --bg-yellow: yellow;
+    --bg-orange: orange;
+    --bg-black: black;
+    --bg-white: white;
+}

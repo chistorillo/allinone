@@ -1,15 +1,22 @@
 /* whole css structure of the website */
-
-.container {
-    margin: 5%;
-}
-
 .margin {
     margin-right: 25%;
     margin-left: 25%;
     margin-top: 5%;
 }
 
+.margin-top {
+    margin-top: 10%;
+}
+
 .padding {
     padding: 25rem;
+}
+
+.border {
+    border: 6px solid var(--txt-lightB) !important;
+}
+
+#ianworks {
+    text-decoration: underline;
 }
